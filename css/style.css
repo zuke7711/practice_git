@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.Question {
+    width: 80%;
+    margin: 5px;
+    background-color: steelblue
+}
+
+.answer {
+    width: 80%;
+    margin: 5px;
+    background-color: skyblue;
+}
