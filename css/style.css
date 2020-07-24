@@ -4,10 +4,10 @@
     /* flex-wrap: wrap; */
 }
 
-.Question {
-    width: 80%;
-    margin: 5px;
-    background-color: steelblue
+.title {
+    width: 100%;
+    background-color: rgb(208, 238, 39);
+    text-align: center;
 }
 
 .answer {
