@@ -1,3 +1,7 @@
+### サイトURL
+https://genmai-cha.github.io/practice_git/
+
+### ルール
 Git勉強会まではこのルールで！！！
 <br>これは初心者向けの練習用リポジトリです！
 <br>あなたのお家時間を教えてください～！(好きな映画、本、漫画、テレビ番組..なんでもいいです！）
@@ -12,3 +16,6 @@ Git勉強会まではこのルールで！！！
 
 <br>お問い合わせ：[玄米](https://twitter.com/akanico_0128)（@akanico_0128) コザ5・6期
 <br>お問い合わせ：[しじみしゃちょー](https://twitter.com/443_President)(＠443_President) おんらいん1St、2nd
+
+### 参考
+[リポジトリをフォークする - GitHub Docs](https://docs.github.com/ja/github/getting-started-with-github/fork-a-repo?fbclid=IwAR2GgI0EvMoIv8HwUxghpgOoH89Bv0jrYCjalzcTgzhXiK_litM9H6PDwMU)
