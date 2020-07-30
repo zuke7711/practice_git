@@ -47,12 +47,12 @@ table {
 	border-spacing: 0;
 }
 /* ここから！ */
-
-@media screen and (max-width:1200px) {
+/* 
+@media screen and (max-width:800px) {
     .container {
         flex-wrap: wrap;
     }
-}
+} */
 
 .title {
     width: 100%;
@@ -83,11 +83,11 @@ a {
 .container {
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .answer {
-    width: 300px;
+    min-width: 300px;
     margin: 10px 10px;
     padding: 10px;
     background-color: #87ceeb;
