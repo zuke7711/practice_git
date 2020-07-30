@@ -54,6 +54,8 @@ table {
     }
 } */
 
+
+
 .title {
     width: 100%;
     background-color: rgb(208, 238, 39);
@@ -80,14 +82,22 @@ a {
     text-decoration: none;
 }
 
-.container {
+/* .container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+} */
+
+.contentBox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .answer {
     min-width: 300px;
+    min-height: 300px;
     margin: 10px 10px;
     padding: 10px;
     background-color: #87ceeb;
