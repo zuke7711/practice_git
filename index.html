@@ -7,42 +7,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>すていほーむ</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./jquery.js"></script>
+    <script src="./common.js"></script>
+    <script src="./cmanObjMove_v091.js" charset="utf-8"></script>
+    <link rel="icon" href="./img/favicon.ico">
 </head>
 
 <body>
     <div class="title">
-        <h1>お気軽に参加してくださいね♪ <a href="https://github.com/Genmai-Cha/practice_git">参加はこちらから</a></h1>
+
+        <h1>Git勉強会練習用ページです！ <br> お気軽に参加してくださいね♪ <br> 参加は<a href="https://github.com/Genmai-Cha/practice_git"
+                target="_blank" class="git_link"><span>こちら(GitHub)</span></a>から</h1>
     </div>
+    
+    <div cmanOMat="area" class="movearea">
 
-    <div class="container">
-
-        <div class="answer">
-            <h1>Q.あなたのお家時間を教えてください～！</h1>
-            <h2>映画</h2>
-            <h2>ドラマ</h2>
-            <h2>音楽</h2>
-            <p><a href="https://twitter.com/akanico_0128" alt="書いた人">玄米</a></p>
+        <div class="btn-area">
+            <input type="button" class="btn" value="並べ替えてみる" onclick="window.location.reload();" />
         </div>
 
-        <div class="answer">
-            <h1>Q.あなたのお家時間を教えてください～！</h1>
-            <h2>Twitter</h2>
-            <h2>ソシャゲ</h2>
-            <h2>youtube</h2>
-            <h2>お猫様と寝る</h2>
-            <p><a href="https://twitter.com/blckct_xiii" alt="書いた人">ぶるく</a></p>
-        </div>
+        <div class="container">
+            <ul class="contentBox">
+                <!-- 回答は以下をコピペして増やして書き換えてね！ -->
+                <li>
+                    <div class="answer" cmanOMat="movearea" >
+                        <img src="./img/icon/genmai.jpg" alt="プロフィール画像" class="prf_img">
+                        <h1><a href="https://twitter.com/akanico_0128" target="_blank" alt="書いた人" class="name">玄米</a></h1>
+                        <h2 class="list_title">お家時間にしてること</h2>
+                        <div>
+                            <p>映画</p>
+                            <p>ドラマ</p>
+                            <p>音楽</p>
+                            <a href="genmai.html">特設ページ</a>
+                        </div>
 
-        <!-- 回答は以下をコピペして増やして書き換えてね！ -->
-        <div class="answer">
-            <h1>Q.あなたのお家時間を教えてください～！</h1>
-            <h2>お茶</h2>
-            <h2>書いたり描いたり読んだり調べたりいろいろ</h2>
-            <h2>ボイパ</h2>
-            <p><a href="https://twitter.com/suminabee" alt="書いた人">すみなべ</a></p>
-        </div>
-        <!-- ここまで -->
-        <div class="answer">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="answer" cmanOMat="movearea" >
+                        <img src="./img/icon/blckct.png" alt="プロフィール画像" class="prf_img">
+                        <h1><a href="https://twitter.com/akanico_0128" target="_blank" alt="書いた人" class="name">ぶるく</a></h1>
+                        <h2 class="list_title">お家時間にしてること</h2>
+                        <div>
+                            <p>Twitter</p>
+                            <p>ソシャゲ</p>
+                            <p>youtube</p>
+                            <p>お猫様と寝る</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="answer" cmanOMat="movearea" >
+                        <img src="./img/icon/suminabe.jpg" alt="プロフィール画像" class="prf_img">
+                        <h1><a href="https://twitter.com/akanico_0128" target="_blank" alt="書いた人" class="name">すみなべ</a></h1>
+                        <h2 class="list_title">お家時間にしてること</h2>
+                        <div>
+                            <p>お茶</p>
+                            <p>書いたり描いたり読んだり調べたりいろいろ</p>
+                            <p>ボイパ</p>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="answer" cmanOMat="movearea" >
+                        <img src="./img/icon/zuke.jpg" alt="プロフィール画像" class="prf_img">
+                        <h1><a href="https://twitter.com/akanico_0128" target="_blank" alt="書いた人" class="name">ズケ</a></h1>
+                        <h2 class="list_title">お家時間にしてること</h2>
+                        <div>
+                            <p>youtube見てるよ~</p>
+                            <p>コーヒーが好きです</p>
+                            <p>豆乳は無調整を飲むようにしてます</p>
+                            <p>ごはん作るもの食べるのも好きだよー</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="answer" cmanOMat="movearea" >
+                        <img src="./img/icon/443.PNG" alt="プロフィール画像" class="prf_img">
+                        <h1><a href="https://twitter.com/443_President" target="_blank" alt="書いた人" class="name">しじみしゃちょー</a>
+                        </h1>
+                        <h2 class="list_title">お家時間にしてること</h2>
+                        <div>
+                            <p>作曲</p>
+                            <p>Twitter監視</p>
+                            <p>ベイブレード</p>
+                            <p>睡眠</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="answer" cmanOMat="movearea" >
+                        <img src="./img/icon/agarie.png" alt="プロフィール画像" class="prf_img">
+                        <h1><a href="https://www.instagram.com/norikoagarie/" target="_blank" alt="書いた人"
+                                class="name">norikoagarie あがりえのりこ</a></h1>
+                        <h2 class="list_title">お家時間にしてること</h2>
+                        <div>
+                            <p>三線を弾く（沖縄民謡が好きです）</p>
+                            <p>紅型の製作</p>
+                            <p>ものづくり</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="answer" cmanOMat="movearea" >
+                        <img src="./img/icon/mee.jpg" alt="プロフィール画像" class="prf_img">
+                        <h1><a href="https://twitter.com/pupumi810" target="_blank" alt="書いた人" class="name">みー</a></h1>
+                        <h2 class="list_title">お家時間にしてること</h2>
+                        <div>
+                            <p>家事本当だよ。</p>
+                            <p>家事しかしてない。本当だよ。</p>
+                            <p>huluなんかみてない。本当だよ。</p>
+                            <p>読書もしてたわ</p>
+                        </div>
+                    </div>
+            
+                </li>
+
+            </ul>
+           <div class="answer">
             <h1>Q.あなたのお家時間を教えてください～！</h1>
             <h2>映画観てます！プロジェクターとスクリーンを去年買いました！</h2>
             <h2>Spotifyで音楽流して踊ってます！ミラーボールみたいなのを去年買いました！</h2>
@@ -50,20 +138,8 @@
             <p><a href="https://twitter.com/Syota_Shimo" alt="Syota_Shimo">下地翔太 しもしょー</a></p>
         </div>
 
-
-        <div class="answer">
-            <img src="./img/7iLI37vt_400x400.jpg" alt="プロフィール画像" class="prf_img">
-            <h1><a href="https://twitter.com/pupumi810" target="_blank" alt="書いた人" class="name">みー</a></h1>
-            <h2 class="list_title">お家時間にしてること</h2>
-            <ul>
-                <li>家事本当だよ。</li>
-                <li>家事しかしてない。本当だよ。</li>
-                <li>huluなんかみてない。本当だよ。</li>
-                <li>読書もしてたわ</li>
-            </ul>
         </div>
     </div>
-
 
 </body>
 
